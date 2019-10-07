@@ -11,7 +11,6 @@ export const versionQuery = gql`
 `
 
 const Index =  (props)=>{
-    debugger
     return <Query query={versionQuery}>
         {
             ({loading,error,data})=>{
